@@ -1,0 +1,11 @@
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+body {background-color: #f8f9fb; color: #222;}
+.navbar {display: flex; justify-content: space-between; align-items: center; padding: 1rem 3rem; background: #003366; color: white;}
+.nav-links {list-style: none; display: flex; gap: 1.5rem;}
+.nav-links a {text-decoration: none; color: white; transition: 0.3s;}
+.nav-links a:hover {color: #00ccff;}
+.hero {text-align: center; padding: 6rem 2rem; background: linear-gradient(to right, #003366, #0066cc); color: white;}
+.hero h1 {font-size: 2.5rem; margin-bottom: 1rem;}
+.btn {background: #00ccff; color: #fff; padding: 0.8rem 1.5rem; border-radius: 25px; text-decoration: none; transition: 0.3s;}
+.btn:hover {background: #0099cc;}
+footer {text-align: center; padding: 1rem; background: #003366; color: white; margin-top: 3rem;}
